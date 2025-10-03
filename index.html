@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Farmer Harvest Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="left">
+        <canvas id="game" width="800" height="480" aria-label="Game canvas"></canvas>
+        <div class="hud">
+          <div>Score: <span id="score">0</span></div>
+          <div>AIScore: <span id="AIscore">0</span></div>
+          <div>Time: <span id="time">60.0</span>s</div>
+          <div>Goal: <span id="goal">15</span></div>
+          <div>Level: <span id="level">1</span></div>
+          <div>Status: <span id="status">Press Start</span></div>
+        </div>
+        <div class="controls">
+          <button id="btnStart">Start</button>
+          <button id="btnReset">Reset</button>
+          <button id="btnPause">Pause (P)</button>
+        </div>
+      </section>
+      <aside class="right">
+        <h1>Farmer Harvest Game</h1>
+        <p>Collect crops before the timer runs out. Avoid obstacles. Use power-ups when you see them!</p>
+        <ul>
+          <li>Move with <strong>Arrow Keys</strong> or <strong>WASD</strong></li>
+          <li><strong>P</strong> to pause</li>
+        </ul>
+        <h2>About this build</h2>
+        <p>This version demonstrates ES6 modules, arrow functions vs <code>bind</code> for <code>this</code> binding, levels, configurable difficulty via JSON, and multiple crop types with different points.</p>
+        <p><em>Note:</em> Because it uses <code>fetch()</code> to load <code>assets/config.json</code>, run from a local server (e.g., <code>python -m http.server</code>) rather than opening the HTML file directly.</p>
+      </aside>
+    </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
