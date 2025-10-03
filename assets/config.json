@@ -1,0 +1,116 @@
+{
+  "crops": {
+    "distribution": {
+      "wheat": 5,
+      "pumpkin": 3,
+      "apple": 2,
+      "golden": 1
+    }
+  },
+  "levels": [
+    {
+      "goal": 15,
+      "time": 60,
+      "spawnEvery": 1.0,
+      "spawnDecay": 0.02,
+      "minSpawnEvery": 0.45,
+      "obstacles": [
+        {
+          "x": 240,
+          "y": 300,
+          "w": 42,
+          "h": 18
+        }
+      ],
+      "crows": [
+        {
+          "x": 120,
+          "y": 120,
+          "vx": 80,
+          "vy": 0,
+          "radius": 10
+        }
+      ]
+    },
+    {
+      "goal": 35,
+      "time": 55,
+      "spawnEvery": 0.85,
+      "spawnDecay": 0.02,
+      "minSpawnEvery": 0.4,
+      "obstacles": [
+        {
+          "x": 380,
+          "y": 220,
+          "w": 52,
+          "h": 18
+        },
+        {
+          "x": 560,
+          "y": 360,
+          "w": 42,
+          "h": 18
+        }
+      ],
+      "crows": [
+        {
+          "x": 160,
+          "y": 80,
+          "vx": 0,
+          "vy": 90,
+          "radius": 12
+        },
+        {
+          "x": 700,
+          "y": 180,
+          "vx": -120,
+          "vy": 0,
+          "radius": 10
+        }
+      ]
+    },
+    {
+      "goal": 60,
+      "time": 50,
+      "spawnEvery": 0.75,
+      "spawnDecay": 0.025,
+      "minSpawnEvery": 0.35,
+      "obstacles": [
+        {
+          "x": 300,
+          "y": 160,
+          "w": 52,
+          "h": 18
+        },
+        {
+          "x": 460,
+          "y": 300,
+          "w": 52,
+          "h": 18
+        },
+        {
+          "x": 620,
+          "y": 220,
+          "w": 52,
+          "h": 18
+        }
+      ],
+      "crows": [
+        {
+          "x": 120,
+          "y": 100,
+          "vx": 120,
+          "vy": 60,
+          "radius": 10
+        },
+        {
+          "x": 680,
+          "y": 280,
+          "vx": -140,
+          "vy": -40,
+          "radius": 12
+        }
+      ]
+    }
+  ]
+}
